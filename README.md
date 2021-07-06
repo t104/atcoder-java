@@ -15,5 +15,5 @@ PS E:\toshi\git\atcoder-java>  & 'c:\Users\toshi\.vscode\extensions\vscjava.vsco
 Input from java.
 ```
 
-launch.json リダイレクトのための < を PowerShell では ^< にしないといけないことに注意
+launch.json の args に設定するリダイレクトのための < を PowerShell では ^< にしないといけないことに注意  
 [Debugger cannot read input file contents #667](https://github.com/microsoft/vscode-java-debug/issues/667)
