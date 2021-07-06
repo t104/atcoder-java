@@ -9,17 +9,11 @@
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}",
+            "console": "integratedTerminal",
             "args": [
-                "<",
+                "^<",
                 "a.in"
             ]
-        },
-        {
-            "type": "java",
-            "name": "Launch Solver",
-            "request": "launch",
-            "mainClass": "Solver",
-            "projectName": "java-vscode_d8efdf84"
         }
     ]
 }
